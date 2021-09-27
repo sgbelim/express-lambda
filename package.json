@@ -1,0 +1,25 @@
+{
+  "name": "express-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgbelim/express-lambda.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgbelim/express-lambda/issues"
+  },
+  "homepage": "https://github.com/sgbelim/express-lambda#readme",
+  "dependencies": {
+    "@vendia/serverless-express": "^4.3.11",
+    "express": "^4.17.1"
+  }
+}
