@@ -9,10 +9,9 @@ phases:
     commands:
       - npm run test
 
-artifacts:
+reports:
   jest_reports:
     files:
-      - 'test-report.xml'
-    file-format: JNITXML
+      - "test-report.xml"
+    file-format: JUNITXML
     base-directory: "test-reports"
-
